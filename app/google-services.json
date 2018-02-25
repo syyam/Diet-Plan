@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1066296598071",
+    "firebase_url": "https://dietplan-b4694.firebaseio.com",
+    "project_id": "dietplan-b4694",
+    "storage_bucket": "dietplan-b4694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066296598071:android:8c94fe59f2b07c25",
+        "android_client_info": {
+          "package_name": "com.example.syyam.dietplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066296598071-hkclp96rn317em7qjbugbr2nqg9fp8s0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syyam.dietplan",
+            "certificate_hash": "ef0bfbd76ebf14be4f4d47b62e9d04a9517fb814"
+          }
+        },
+        {
+          "client_id": "1066296598071-q5hn4t61ta39hjssk463hv89oqes1svf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0D8Gf3lZtvMfjWZ8L9mP2t3JsJl581JE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066296598071-q5hn4t61ta39hjssk463hv89oqes1svf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

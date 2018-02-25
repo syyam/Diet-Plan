@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.syyam.dietplan.DailyAppContent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/one"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:gravity="center_vertical|center"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Monday"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/onee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:id="@+id/twooo"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/two"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:inputType="textMultiLine"
+                    android:text="Tuesday"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/twoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:inputType="textMultiLine"
+                android:orientation="horizontal"
+                android:id="@+id/threeee"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/three"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textMultiLine"
+                    android:text="Wednesday"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/threee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:id="@+id/fourrr"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/four"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:text="Thursday"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fourr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:id="@+id/fiveee"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/five"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:inputType="textMultiLine"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:text="Friday"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fivee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:id="@+id/sixxx"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/six"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textMultiLine"
+                    android:text="Saturday"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sixx"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:id="@+id/sevennn"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/seven"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:inputType="textMultiLine"
+                    android:text="Sunday"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sevenn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/eighttt"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/eight"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:clickable="false"
+                    android:inputType="textMultiLine"
+                    android:editable="false"
+                    android:text="Sunday"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/eightt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:id="@+id/nineee"
+
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/nine"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:inputType="textMultiLine"
+                    android:text="Sunday"
+                    android:textSize="18dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ninee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+                android:id="@+id/tennn"
+                android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:background="@drawable/input_outline"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/ten"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:clickable="false"
+                android:editable="false"
+                android:inputType="textMultiLine"
+                android:text="Sunday"
+                android:textSize="18dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tenn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+                android:id="@+id/elevennn"
+                android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:background="@drawable/input_outline"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/eleven"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:clickable="false"
+                android:editable="false"
+                android:inputType="textPersonName"
+                android:text="Sunday"
+                android:textSize="18dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/elevenn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:id="@+id/twelveee"
+            android:background="@drawable/input_outline"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/twelve"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:clickable="false"
+                android:editable="false"
+                android:inputType="textMultiLine"
+                android:text="Sunday"
+                android:textSize="18dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/twelvee"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+                android:id="@+id/thirteennn"
+                android:background="@drawable/input_outline"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/thirteen"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:clickable="false"
+                android:editable="false"
+                android:inputType="textMultiLine"
+                android:text="Sunday"
+                android:textSize="18dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/thirteenn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:id="@+id/fourteennn"
+
+            android:orientation="horizontal"
+            android:background="@drawable/input_outline"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/fourteen"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:clickable="false"
+                android:editable="false"
+                android:inputType="textMultiLine"
+                android:text="Sunday"
+                android:textSize="18dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fourteenn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fifteennn"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:background="@drawable/input_outline"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/fifteen"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:clickable="false"
+                android:editable="false"
+                android:inputType="textMultiLine"
+                         android:text="Sunday"
+                android:textSize="18dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fifteenn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
